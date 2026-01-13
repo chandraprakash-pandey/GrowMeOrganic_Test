@@ -83,6 +83,7 @@ function App() {
               </label>
               <input
                 id="pageNo"
+                min={0}
                 type="number"
                 value={userPageNo}
                 onChange={(e) => setUserPageNo(Number(e.target.value))}
