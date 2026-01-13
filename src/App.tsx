@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { Paginator } from 'primereact/paginator';
-import { Dropdown } from 'primereact/dropdown';
 import axios from "axios";
 
 import "primereact/resources/themes/lara-light-indigo/theme.css";
